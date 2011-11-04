@@ -1,0 +1,39 @@
+
+!R! SMB 7;UNIT C;CASS 1;COPY 1;EXIT;
+!R! FONT 62; MAP 0,-.015; CALL VREG; EXIT,E;
+
+
+      BAA0304               04/01/07                                       BAA0304                04/01/07
+   Original Title/Transfer Plate (WDY938)                            Original Title/Transfer Plate (WDY938)
+   06      VOLKSWAGEN          STA WGN                               06      VOLKSWAGEN          STA WGN        
+            WVGPT77LX6D023510                        000035                      WVGPT77LX6D023510                          000035
+                                              OAKLAND                                                               OAKLAND        
+
+
+   VW CREDIT INC                                                     VW CREDIT INC            
+   3800 HAMLIN ROAD                                                  3800 HAMLIN ROAD                    
+                                                                                                         
+   AUBURN HILLS          MI  48326                                   AUBURN HILLS          MI  48326     
+                                                      23.00                                                                  23.00
+     121506 A1 T349 810 0006     23.00                               121506 A1 T349 810 0006     23.00
+
+
+
+
+!R! EXIT,E;
+!R! FSET 0p12h12v0s3b0t; CALL VREG; EXIT,E;
+     BAA0304 01        04/01/07  12
+  Original Title/Transfer Plate (WDY938)
+
+  06      VOLKSWAGEN          STA WGN        
+         WVGPT77LX6D023510              000035
+
+                               OAKLAND      63
+  VW CREDIT INC            
+  3800 HAMLIN ROAD                    
+                                      
+  AUBURN HILLS          MI  48326        23.00
+
+  121506 A1 T349 810 0006     23.00    9700302
+
+!R! PAGE;CASS 1;EXIT,E;

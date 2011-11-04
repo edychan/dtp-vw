@@ -1,0 +1,13 @@
+obj/
+stn/
+comm/
+dbf/
+mem/
+mail/
+forms/
+sample/
+*.exe
+*.dbf
+*.doc
+*.pdf
+

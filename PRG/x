@@ -1,0 +1,94 @@
+C>SEARCH /xpdesc/ *.prg
+
+SEARCH  Ver 2.2
+Copyright (C) 1986, 1987, Solid Software, Inc. and Buzzwords International, Inc.
+
+Searching for "xpdesc"
+ ... ignoring case.
+
+Found in line 2941 of file RAFUNC.PRG:
+parameter xplate, xpdesc
+
+Found in line 2954 of file RAFUNC.PRG:
+xpdesc = space(3)
+
+Found in line 2963 of file RAFUNC.PRG:
+            xpdesc = [003]
+
+Found in line 2965 of file RAFUNC.PRG:
+            xpdesc = [009]       && new passenger white plate
+
+Found in line 2975 of file RAFUNC.PRG:
+           xpdesc = [009]       && new commercial white plate
+
+Found in line 2984 of file RAFUNC.PRG:
+         xpdesc = [004]
+
+Found in line 2989 of file RAFUNC.PRG:
+         xpdesc = [004]
+
+Found in line 2996 of file RAFUNC.PRG:
+         xpdesc = [001]
+
+Found in line 2998 of file RAFUNC.PRG:
+         xpdesc = [010]      && 10.30.06: new passenger distinctive plate
+
+Found in line 3004 of file RAFUNC.PRG:
+      xpdesc = [001]
+
+Found in line 3009 of file RAFUNC.PRG:
+      xpdesc = [003]      && bug fix: 03.26.02
+
+Found in line 3014 of file RAFUNC.PRG:
+      xpdesc = [003] 
+
+Found in line 3019 of file RAFUNC.PRG:
+      xpdesc = [003]
+
+Found in line 3024 of file RAFUNC.PRG:
+      xpdesc = [003]
+
+Found in line 3030 of file RAFUNC.PRG:
+         xpdesc = [001]
+
+Found in line 3032 of file RAFUNC.PRG:
+         xpdesc = [010]      && 10.30.06: new commercial distinctive plate
+
+Found in line 3038 of file RAFUNC.PRG:
+      xpdesc = [003] 
+
+Found in line 3043 of file RAFUNC.PRG:
+      xpdesc = [003]
+
+Found in line 3048 of file RAFUNC.PRG:
+      xpdesc = [003]
+
+Found in line 3053 of file RAFUNC.PRG:
+      xpdesc = [003]
+
+Found in line 78 of file RDTP1.PRG:
+xpdesc = space(3)       && 12.01.06: plate desc code; [001;003;009;010]
+
+Found in line 466 of file RDTP1.PRG:
+   xpdesc = space(3)       && 12.01.06: plate desc code; [001;003;009;010]
+
+Found in line 765 of file RDTP1.PRG:
+   xpdesc = if(empty(xpdesc),ypdesc,xpdesc)    && 12.11.06: retain plate desc for previous plate
+
+Found in line 781 of file RDTP1.PRG:
+case l_faction $ [3;4;6;7;9] .and. xpdesc = [003]
+
+Found in line 856 of file RDTP1.PRG:
+   elseif raplate->fstatus <> "A" .and. xpdesc = [003]      && 12.11.06: blue plate exchange
+
+Found in line 882 of file RDTP1.PRG:
+      if xpdesc = [003]      && check previous plate
+
+Found in line 962 of file RDTP1.PRG:
+   if xpdesc = [003]        && 12.11.06
+
+Found in line 1023 of file RDTP1.PRG:
+   (l_faction $ [3;7] .and. xpdesc = [003] .and. empty(l_ftab))
+
+Found in line 1156 of file RDTP1.PRG:
+   (l_faction $ [3;7] .and. xpdesc = [003])      && 12.01.06
